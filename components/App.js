@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {render} from 'react-dom';
 import marked from 'marked';
 
+require('../public/main.scss');
+
 class App extends Component{
   constructor() {
     super();
